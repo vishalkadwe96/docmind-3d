@@ -1,0 +1,27 @@
+# Secrets — never commit these
+.env
+*.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Local data (per-machine, shouldn't go to GitHub)
+chroma_db/
+docmind.db
+docs/
+eval_log.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
